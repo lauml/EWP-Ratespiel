@@ -37,13 +37,30 @@
 
 .falsch{
 	background-color: #f08080;
+	color: white;
+	border-radius: 4px;
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+
 }
 
 .richtig{
 	background-color: palegreen;
+	color: white;
+	border-radius: 4px;
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+
 }
 
 .verloren{
 	background-color: black;
 	color: white;
+	border-radius: 4px;
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+
 }

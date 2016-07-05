@@ -6,6 +6,7 @@
 
     	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
     	<link rel="stylesheet" href="node_modules/tooltipster/css/tooltipster.css">
+    	<link rel="stylesheet" type="text/css" href="ratespiel.css">
 
 </head>
 <body>
@@ -19,11 +20,34 @@
 		</small>
 	</div>
 </div>
-<div id="game" class="container">
-	<button type="button" class="btn btn-primary"><span class="glyphicon glyphicon glyphicon-repeat"></span> Start</button>
+<div id="spiel" class="container">
+
+
+	<div id="buttons" class="col-xs-12 col-md-4">
+	<button type="button" class="btn btn-primary" id="start"><span class="glyphicon glyphicon glyphicon-repeat"></span> Start</button>
 	<input type="text" id="user-input">
-	<button type="button" class="btn btn-info"><span class="glyphicon glyphicon-question-sign"></span> Check</button>
-	<div id="versuchsanzal"></div>
+	<button type="button" class="btn btn-info" id="check"><span class="glyphicon glyphicon-question-sign"></span> Check</button>
+	<div id="resultat"></div> 
+	</div>
+
+	<div id="versuchsanzahl" class="col-xs-12 col-md-12">
+	<div id="versuch1" class="versuch" class="versuchda"></div>
+	<div id="versuch2" class="versuch" class="versuchda"></div>
+	<div id="versuch3" class="versuch" class="versuchda"></div>
+	<div id="versuch4" class="versuch" class="versuchda"></div>
+	<div id="versuch5" class="versuch" class="versuchda"></div>
+	<div id="versuch6" class="versuch" class="versuchda"></div>
+	<div id="versuch7" class="versuch" class="versuchda"></div>
+	</div>
+
+	<div id="versuchsliste" class="col-xs-12 col-md-4">
+	<ul class="list-group">
+  		<li class="list-group-item">
+    		<span class="badge">3</span>
+    Versuchsliste
+  		</li>
+	</ul>
+	</div>
 </div>
 
 
@@ -31,7 +55,7 @@
 	<script src="node_modules/jquery/dist/jquery.min.js"></script>
 	<script src="node_modules/tooltipster/js/jquery.tooltipster.min.js"></script>
 	<script src="node_modules/bootstrap/dist/bootstrap.js"></script>
-    <script type="text/javascript" src="filme.js"></script>
+    <script type="text/javascript" src="ratespiel.js"></script>
 
 </body>
 </html>

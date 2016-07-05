@@ -8,7 +8,7 @@ let randomNumber = Math.floor(Math.random() * 100 + 1);
 // TODO 1: Initalisieren Sie nach dieser Zeile eine Variable für die Versuchsanzahl.
 
 var versuchsanzahl = 7;
-$("#versuchsanzahl").text(versuchsanzahl);
+
 
 
 /**
@@ -89,7 +89,6 @@ $("button#check").on("click", function(){
 		if (versuchsanzahl == 0) {
 		$("#versuch7").addClass("versuchweg").removeClass("versuchda");
 		}
-
 		
 });
 
